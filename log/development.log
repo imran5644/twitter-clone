@@ -166,3 +166,1698 @@ Processing by TweetsController#index as HTML
 Completed 200 OK in 1544ms (Views: 1429.5ms | ActiveRecord: 19.4ms | Allocations: 124827)
 
 
+Started GET "/tweets" for ::1 at 2021-01-06 01:11:21 +0530
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (1.7ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (Duration: 83.4ms | Allocations: 3823)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 264.5ms | Allocations: 10052)
+Completed 200 OK in 418ms (Views: 335.7ms | ActiveRecord: 5.7ms | Allocations: 13043)
+
+
+Started GET "/tweets" for ::1 at 2021-01-06 01:18:42 +0530
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (Duration: 12.5ms | Allocations: 3823)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 1255.0ms | Allocations: 119708)
+Completed 200 OK in 1275ms (Views: 1258.9ms | ActiveRecord: 1.0ms | Allocations: 122703)
+
+
+Started GET "/tweets" for ::1 at 2021-01-06 01:41:20 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/tweets/index.html.erb:14
+  [1m[36mTweet Load (0.8ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (Duration: 31.7ms | Allocations: 1745)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 53.2ms | Allocations: 5504)
+Completed 200 OK in 79ms (Views: 74.5ms | ActiveRecord: 3.3ms | Allocations: 6716)
+
+
+Started GET "/tweets" for ::1 at 2021-01-06 01:41:22 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 789)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 4205)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.2ms | Allocations: 4602)
+
+
+Started GET "/tweets" for ::1 at 2021-01-06 01:41:28 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 785)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 4184)
+Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.2ms | Allocations: 4579)
+
+
+Started GET "/tweets" for ::1 at 2021-01-06 01:41:31 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.6ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (Duration: 13.5ms | Allocations: 785)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.2ms | Allocations: 4183)
+Completed 200 OK in 38ms (Views: 32.6ms | ActiveRecord: 0.6ms | Allocations: 4577)
+
+
+Started GET "/tweets" for ::1 at 2021-01-06 01:41:32 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.4ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (Duration: 16.6ms | Allocations: 785)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 28.4ms | Allocations: 4188)
+Completed 200 OK in 40ms (Views: 30.5ms | ActiveRecord: 0.4ms | Allocations: 4582)
+
+
+Started GET "/tweets" for ::1 at 2021-01-06 01:41:48 +0530
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (Duration: 12.0ms | Allocations: 3823)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 42.4ms | Allocations: 10053)
+Completed 200 OK in 58ms (Views: 46.0ms | ActiveRecord: 0.8ms | Allocations: 13043)
+
+
+Started GET "/" for ::1 at 2021-01-06 01:43:34 +0530
+Processing by TweetsController#index as HTML
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/tweets_controller.rb:7:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (2.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (Duration: 26.2ms | Allocations: 2933)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 37.0ms | Allocations: 6333)
+Completed 200 OK in 65ms (Views: 37.0ms | ActiveRecord: 7.6ms | Allocations: 7783)
+
+
+Started GET "/" for ::1 at 2021-01-06 01:43:37 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.4ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 796)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 4194)
+Completed 200 OK in 22ms (Views: 19.7ms | ActiveRecord: 0.4ms | Allocations: 4606)
+
+
+Started GET "/" for ::1 at 2021-01-06 01:43:42 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 804)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 4204)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.3ms | Allocations: 4627)
+
+
+Started GET "/" for ::1 at 2021-01-06 01:46:11 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.6ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 10.3ms | Allocations: 870)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 14.6ms | Allocations: 1189)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.0ms | Allocations: 4968)
+Completed 200 OK in 42ms (Views: 38.2ms | ActiveRecord: 0.6ms | Allocations: 6199)
+
+
+Started GET "/" for ::1 at 2021-01-06 01:46:13 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.7ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 11.7ms | Allocations: 707)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 12.8ms | Allocations: 794)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 30.6ms | Allocations: 4212)
+Completed 200 OK in 35ms (Views: 31.6ms | ActiveRecord: 0.7ms | Allocations: 4625)
+
+
+Started GET "/" for ::1 at 2021-01-06 01:46:14 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 3.8ms | Allocations: 707)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 794)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.1ms | Allocations: 4212)
+Completed 200 OK in 24ms (Views: 21.8ms | ActiveRecord: 0.3ms | Allocations: 4624)
+
+
+Started GET "/" for ::1 at 2021-01-06 01:46:15 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.9ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 8.8ms | Allocations: 707)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 14.7ms | Allocations: 794)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 32.6ms | Allocations: 5895)
+Completed 200 OK in 57ms (Views: 50.6ms | ActiveRecord: 0.9ms | Allocations: 6893)
+
+
+Started GET "/" for ::1 at 2021-01-06 01:46:15 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 4.0ms | Allocations: 707)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 794)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 27.3ms | Allocations: 6498)
+Completed 200 OK in 30ms (Views: 28.1ms | ActiveRecord: 0.3ms | Allocations: 6910)
+
+
+Started GET "/" for ::1 at 2021-01-06 01:46:23 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.7ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 11.0ms | Allocations: 707)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 12.2ms | Allocations: 794)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 34.4ms | Allocations: 4216)
+Completed 200 OK in 39ms (Views: 36.0ms | ActiveRecord: 0.7ms | Allocations: 4629)
+
+
+Started GET "/" for ::1 at 2021-01-06 01:46:29 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.5ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 10.3ms | Allocations: 707)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 11.3ms | Allocations: 794)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 35.5ms | Allocations: 4212)
+Completed 200 OK in 42ms (Views: 37.7ms | ActiveRecord: 0.5ms | Allocations: 4624)
+
+
+Started GET "/" for ::1 at 2021-01-06 01:46:30 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.4ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 5.9ms | Allocations: 715)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 6.8ms | Allocations: 802)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.0ms | Allocations: 4222)
+Completed 200 OK in 25ms (Views: 22.6ms | ActiveRecord: 0.4ms | Allocations: 4645)
+
+
+Started GET "/" for ::1 at 2021-01-06 01:46:50 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.9ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 12.3ms | Allocations: 707)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 13.6ms | Allocations: 794)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 39.7ms | Allocations: 4217)
+Completed 200 OK in 48ms (Views: 43.7ms | ActiveRecord: 0.9ms | Allocations: 4629)
+
+
+Started GET "/" for ::1 at 2021-01-06 01:46:51 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.4ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 6.6ms | Allocations: 707)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 794)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.9ms | Allocations: 4212)
+Completed 200 OK in 28ms (Views: 23.7ms | ActiveRecord: 0.4ms | Allocations: 4624)
+
+
+Started GET "/tweets" for ::1 at 2021-01-06 01:46:59 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.4ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 4.3ms | Allocations: 707)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 794)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 4212)
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 0.4ms | Allocations: 4625)
+
+
+Started GET "/tweets" for ::1 at 2021-01-06 01:47:12 +0530
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 8.2ms | Allocations: 3455)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 11.6ms | Allocations: 3884)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 154.5ms | Allocations: 10156)
+Completed 200 OK in 170ms (Views: 157.9ms | ActiveRecord: 0.7ms | Allocations: 13160)
+
+
+Started GET "/tweets" for ::1 at 2021-01-06 01:47:14 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 4.9ms | Allocations: 715)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 802)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 22.6ms | Allocations: 4242)
+Completed 200 OK in 25ms (Views: 23.6ms | ActiveRecord: 0.3ms | Allocations: 4668)
+
+
+Started GET "/tweets" for ::1 at 2021-01-06 01:47:16 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (1.0ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 11.2ms | Allocations: 715)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 12.5ms | Allocations: 802)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 28.6ms | Allocations: 4222)
+Completed 200 OK in 40ms (Views: 31.1ms | ActiveRecord: 1.0ms | Allocations: 4645)
+
+
+Started GET "/tweets" for ::1 at 2021-01-06 01:48:32 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.5ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 8.6ms | Allocations: 857)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 11.2ms | Allocations: 1172)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 26.6ms | Allocations: 4949)
+Completed 200 OK in 41ms (Views: 33.4ms | ActiveRecord: 0.5ms | Allocations: 6168)
+
+
+Started GET "/tweets" for ::1 at 2021-01-06 02:14:42 +0530
+Processing by TweetsController#index as HTML
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/tweets_controller.rb:7:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.4ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 7.7ms | Allocations: 1116)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 28.0ms | Allocations: 1423)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 273.5ms | Allocations: 5822)
+Completed 200 OK in 375ms (Views: 313.1ms | ActiveRecord: 9.9ms | Allocations: 7642)
+
+
+Started GET "/tweets" for ::1 at 2021-01-06 02:20:13 +0530
+Processing by TweetsController#index as HTML
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/tweets_controller.rb:7:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.8ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 17.2ms | Allocations: 1121)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 23.7ms | Allocations: 1428)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.1ms | Allocations: 5808)
+Completed 200 OK in 67ms (Views: 48.5ms | ActiveRecord: 2.8ms | Allocations: 7625)
+
+
+Started GET "/tweets" for ::1 at 2021-01-06 02:32:41 +0530
+Processing by TweetsController#index as HTML
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/tweets_controller.rb:7:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.7ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 18.0ms | Allocations: 1118)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.8ms | Allocations: 65)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 26.5ms | Allocations: 1722)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.3ms | Allocations: 6102)
+Completed 200 OK in 73ms (Views: 52.6ms | ActiveRecord: 3.7ms | Allocations: 7919)
+
+
+Started GET "/tweets" for ::1 at 2021-01-06 02:33:16 +0530
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 14.8ms | Allocations: 3811)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.4ms | Allocations: 65)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 18.1ms | Allocations: 4536)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 235.0ms | Allocations: 11405)
+Completed 200 OK in 295ms (Views: 240.6ms | ActiveRecord: 1.1ms | Allocations: 14409)
+
+
+Started GET "/tweets" for ::1 at 2021-01-06 02:33:31 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 5.2ms | Allocations: 1126)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.4ms | Allocations: 115)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 7.7ms | Allocations: 1779)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 6199)
+Completed 200 OK in 24ms (Views: 21.9ms | ActiveRecord: 0.3ms | Allocations: 7431)
+
+
+Started GET "/tweets" for ::1 at 2021-01-06 02:34:47 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 5.4ms | Allocations: 1118)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.6ms | Allocations: 135)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 8.8ms | Allocations: 1788)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 6168)
+Completed 200 OK in 25ms (Views: 22.4ms | ActiveRecord: 0.3ms | Allocations: 7386)
+
+
+Started GET "/tweets" for ::1 at 2021-01-06 02:42:43 +0530
+Processing by TweetsController#index as HTML
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/tweets_controller.rb:7:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.8ms | Allocations: 100)
+  [1m[36mTweet Load (0.5ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 11.2ms | Allocations: 1117)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.5ms | Allocations: 134)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 18.5ms | Allocations: 2116)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 32.1ms | Allocations: 6496)
+Completed 200 OK in 60ms (Views: 40.0ms | ActiveRecord: 4.1ms | Allocations: 8313)
+
+
+Started GET "/tweets" for ::1 at 2021-01-06 02:55:56 +0530
+Processing by TweetsController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/tweets_controller.rb:7:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.3ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 47.1ms | Allocations: 9893)
+  Rendered tweets/_feed.html.erb (Duration: 48.8ms | Allocations: 10413)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 51.1ms | Allocations: 11063)
+  Rendered layout layouts/application.html.erb (Duration: 51.5ms | Allocations: 11159)
+Completed 500 Internal Server Error in 58ms (ActiveRecord: 0.6ms | Allocations: 12952)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= simple_form_for(@tweet) do |f| %>
+  <%= f.error_notification %>
+  <div class="field">
+    <div class="control">
+      <%= f.input :tweet, label: "Tweet about it", input_html: { class: "textarea"}, wrapper: false, label_html
+        : {class: "label"}, placeholder: "Compose a new tweet..."%>
+    </div>
+    </div>
+    <%= f.button :submit, class: "button is-info" %>
+    <% end %>:
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/c243e77524d14f77/variables" for ::1 at 2021-01-06 02:55:57 +0530
+Started GET "/tweets" for ::1 at 2021-01-06 02:59:17 +0530
+Processing by TweetsController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/tweets_controller.rb:7:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.4ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 2.6ms | Allocations: 1406)
+  Rendered tweets/_feed.html.erb (Duration: 4.4ms | Allocations: 1924)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 2581)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 2677)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 1.3ms | Allocations: 6855)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= simple_form_for(@tweet) do |f| %>
+  <%= f.error_notification %>
+  <div class="field">
+    <div class="control">
+      <%= f.input :tweet, label: "Tweet about it", input_html: { class: "textarea"}, wrapper: false, label_html
+        : {class: "label"}, placeholder: "Compose a new tweet..."%>
+    </div>
+    </div>
+    <%= f.button :submit, class: "button is-info" %>
+    <% end %>:
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/aae88cb24ea765d3/variables" for ::1 at 2021-01-06 02:59:17 +0530
+Started GET "/tweets" for ::1 at 2021-01-06 02:59:18 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered tweets/_form.html.erb (Duration: 1.7ms | Allocations: 1421)
+  Rendered tweets/_feed.html.erb (Duration: 2.1ms | Allocations: 1514)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1692)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 1789)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2197)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= simple_form_for(@tweet) do |f| %>
+  <%= f.error_notification %>
+  <div class="field">
+    <div class="control">
+      <%= f.input :tweet, label: "Tweet about it", input_html: { class: "textarea"}, wrapper: false, label_html
+        : {class: "label"}, placeholder: "Compose a new tweet..."%>
+    </div>
+    </div>
+    <%= f.button :submit, class: "button is-info" %>
+    <% end %>:
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/9cf54966f1a3c6ed/variables" for ::1 at 2021-01-06 02:59:18 +0530
+Started GET "/" for ::1 at 2021-01-06 02:59:24 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered tweets/_form.html.erb (Duration: 1.3ms | Allocations: 1420)
+  Rendered tweets/_feed.html.erb (Duration: 1.7ms | Allocations: 1513)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1691)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1787)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2185)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= simple_form_for(@tweet) do |f| %>
+  <%= f.error_notification %>
+  <div class="field">
+    <div class="control">
+      <%= f.input :tweet, label: "Tweet about it", input_html: { class: "textarea"}, wrapper: false, label_html
+        : {class: "label"}, placeholder: "Compose a new tweet..."%>
+    </div>
+    </div>
+    <%= f.button :submit, class: "button is-info" %>
+    <% end %>:
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/e65762ba3b84c126/variables" for ::1 at 2021-01-06 02:59:24 +0530
+Started GET "/" for ::1 at 2021-01-06 02:59:27 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered tweets/_form.html.erb (Duration: 1.2ms | Allocations: 1423)
+  Rendered tweets/_feed.html.erb (Duration: 1.9ms | Allocations: 1516)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1694)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 1791)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2199)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= simple_form_for(@tweet) do |f| %>
+  <%= f.error_notification %>
+  <div class="field">
+    <div class="control">
+      <%= f.input :tweet, label: "Tweet about it", input_html: { class: "textarea"}, wrapper: false, label_html
+        : {class: "label"}, placeholder: "Compose a new tweet..."%>
+    </div>
+    </div>
+    <%= f.button :submit, class: "button is-info" %>
+    <% end %>:
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/783dad20dc3df46c/variables" for ::1 at 2021-01-06 02:59:27 +0530
+Started GET "/" for ::1 at 2021-01-06 03:00:28 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 1.2ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 6.1ms | Allocations: 1430)
+  Rendered tweets/_feed.html.erb (Duration: 12.6ms | Allocations: 1947)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 21.1ms | Allocations: 2600)
+  Rendered layout layouts/application.html.erb (Duration: 22.8ms | Allocations: 2697)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.0ms | Allocations: 3913)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= simple_form_for(@tweet) do |f| %>
+  <%= f.error_notification %>
+  <div class="field">
+    <div class="control">
+      <%= f.input :tweet, label: "Tweet about it", input_html: { class: "textarea"}, wrapper: false, label_html
+        : {class: "label"}, placeholder: "Compose a new tweet..."%>
+    </div>
+    </div>
+    <%= f.button :submit, class: "button is-info" %>
+    <% end %>:
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/4dbef8d71f4f069b/variables" for ::1 at 2021-01-06 03:00:28 +0530
+Started GET "/" for ::1 at 2021-01-06 03:04:34 +0530
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (14.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 1.0ms | Allocations: 100)
+  Rendered tweets/_form.html.erb (Duration: 8.9ms | Allocations: 1727)
+  Rendered tweets/_feed.html.erb (Duration: 14.2ms | Allocations: 2260)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 38.5ms | Allocations: 3039)
+  Rendered layout layouts/application.html.erb (Duration: 39.7ms | Allocations: 3140)
+Completed 500 Internal Server Error in 96ms (ActiveRecord: 3.0ms | Allocations: 8889)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= simple_form_for(@tweet) do |f| %>
+  <%= f.error_notification %>
+  <div class="field">
+    <div class="control">
+      <%= f.input :tweet, label: "Tweet about it", input_html: { class: "textarea"}, wrapper: false, label_html
+        : {class: "label"}, placeholder: "Compose a new tweet..."%>
+    </div>
+    </div>
+    <%= f.button :submit, class: "button is-info" %>
+    <% end %>:
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/bf26213ee8a9ce24/variables" for ::1 at 2021-01-06 03:04:35 +0530
+Started GET "/" for ::1 at 2021-01-06 03:05:17 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 1.4ms | Allocations: 98)
+  [1m[36mTweet Load (1.0ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 14.8ms | Allocations: 1235)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.6ms | Allocations: 136)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 26.4ms | Allocations: 2232)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 257.6ms | Allocations: 9098)
+Completed 200 OK in 275ms (Views: 267.0ms | ActiveRecord: 1.0ms | Allocations: 10345)
+
+
+Started GET "/" for ::1 at 2021-01-06 03:05:31 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.4ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 1.5ms | Allocations: 1430)
+  Rendered tweets/_feed.html.erb (Duration: 3.6ms | Allocations: 1947)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 2602)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 2699)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 3915)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= simple_form_for(@tweet) do |f| %>
+  <%= f.error_notification %>
+  <div class="field">
+    <div class="control">
+      <%= f.input :tweet, label: "Tweet about it", input_html: { class: "textarea"}, wrapper: false, label_html
+        : {class: "label"}, placeholder: "Compose a new tweet..."%>
+    </div>
+    </div>
+    <%= f.button :submit, class: "button is-info" %>
+    <% end %>:
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/35ed946bb3ef8d9b/variables" for ::1 at 2021-01-06 03:05:31 +0530
+Started GET "/" for ::1 at 2021-01-06 03:06:26 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.3ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 1.2ms | Allocations: 1425)
+  Rendered tweets/_feed.html.erb (Duration: 2.7ms | Allocations: 1942)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 2595)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 2691)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 3893)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= simple_form_for(@tweet) do |f| %>
+  <%= f.error_notification %>
+  <div class="field">
+    <div class="control">
+      # <%= f.input :tweet, label: "Tweet about it", input_html: { class: "textarea"}, wrapper: false, label_html
+      #   : {class: "label"}, placeholder: "Compose a new tweet..."%>
+    </div>
+    </div>
+    <%= f.button :submit, class: "button is-info" %>
+    <% end %>:
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/ec35187b8316d633/variables" for ::1 at 2021-01-06 03:06:26 +0530
+Started GET "/" for ::1 at 2021-01-06 03:06:44 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 1.1ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 1.0ms | Allocations: 1419)
+  Rendered tweets/_feed.html.erb (Duration: 2.4ms | Allocations: 1935)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 6.4ms | Allocations: 2585)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 2681)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms | Allocations: 3878)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= simple_form_for(@tweet) do |f| %>
+  <%= f.error_notification %>
+  # <div class="field">
+  #   <div class="control">
+  #     <%= f.input :tweet, label: "Tweet about it", input_html: { class: "textarea"}, wrapper: false, label_html
+  #       : {class: "label"}, placeholder: "Compose a new tweet..."%>
+  #   </div>
+  #   </div>
+    <%= f.button :submit, class: "button is-info" %>
+    <% end %>:
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/431d75ab3582221c/variables" for ::1 at 2021-01-06 03:06:45 +0530
+Started GET "/" for ::1 at 2021-01-06 03:06:46 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered tweets/_form.html.erb (Duration: 1.8ms | Allocations: 1412)
+  Rendered tweets/_feed.html.erb (Duration: 2.5ms | Allocations: 1505)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1683)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 1780)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2190)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= simple_form_for(@tweet) do |f| %>
+  <%= f.error_notification %>
+  # <div class="field">
+  #   <div class="control">
+  #     <%= f.input :tweet, label: "Tweet about it", input_html: { class: "textarea"}, wrapper: false, label_html
+  #       : {class: "label"}, placeholder: "Compose a new tweet..."%>
+  #   </div>
+  #   </div>
+    <%= f.button :submit, class: "button is-info" %>
+    <% end %>:
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/74b3f4676154119d/variables" for ::1 at 2021-01-06 03:06:46 +0530
+Started GET "/" for ::1 at 2021-01-06 03:07:02 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.4ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 2.0ms | Allocations: 1430)
+  Rendered tweets/_feed.html.erb (Duration: 4.9ms | Allocations: 1947)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 8.2ms | Allocations: 2600)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 2697)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 3913)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= simple_form_for(@tweet) do |f| %>
+  <%= f.error_notification %>
+  <div class="field">
+    <div class="control">
+      <%= f.input :tweet, label: "Tweet about it", input_html: { class: "textarea"}, wrapper: false, label_html
+        : {class: "label"}, placeholder: "Compose a new tweet..."%>
+    </div>
+    </div>
+    <%= f.button :submit, class: "button is-info" %>
+    <% end %>:
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/7a8ad0b258899408/variables" for ::1 at 2021-01-06 03:07:02 +0530
+Started GET "/" for ::1 at 2021-01-06 03:07:30 +0530
+Processing by TweetsController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/tweets_controller.rb:7:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered tweets/_form.html.erb (Duration: 1.3ms | Allocations: 1397)
+  Rendered tweets/_feed.html.erb (Duration: 1.6ms | Allocations: 1490)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1668)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1764)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 2.1ms | Allocations: 5237)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= simple_form_for(@tweet) do |f| %>
+  <%= f.error_notification %>
+  <div class="field">
+    <div class="control">
+      <%= f.input :tweet, label: "Tweet about it", input_html: { class: "textarea"}, wrapper: false, label_html
+        : {class: "label"}, placeholder: "Compose a new tweet..."%>
+    </div>
+    </div>
+    <%= f.button :submit, class: "button is-info" %>
+    <% end %>:
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/987318c84c802b5c/variables" for ::1 at 2021-01-06 03:07:30 +0530
+Started GET "/" for ::1 at 2021-01-06 03:07:31 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered tweets/_form.html.erb (Duration: 2.0ms | Allocations: 1425)
+  Rendered tweets/_feed.html.erb (Duration: 2.5ms | Allocations: 1518)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1696)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 1792)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2188)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= simple_form_for(@tweet) do |f| %>
+  <%= f.error_notification %>
+  <div class="field">
+    <div class="control">
+      <%= f.input :tweet, label: "Tweet about it", input_html: { class: "textarea"}, wrapper: false, label_html
+        : {class: "label"}, placeholder: "Compose a new tweet..."%>
+    </div>
+    </div>
+    <%= f.button :submit, class: "button is-info" %>
+    <% end %>:
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/6bb6ac2e4dac45ec/variables" for ::1 at 2021-01-06 03:07:31 +0530
+Started GET "/" for ::1 at 2021-01-06 03:07:33 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered tweets/_form.html.erb (Duration: 1.1ms | Allocations: 1421)
+  Rendered tweets/_feed.html.erb (Duration: 1.5ms | Allocations: 1514)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1692)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1788)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2184)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= simple_form_for(@tweet) do |f| %>
+  <%= f.error_notification %>
+  <div class="field">
+    <div class="control">
+      <%= f.input :tweet, label: "Tweet about it", input_html: { class: "textarea"}, wrapper: false, label_html
+        : {class: "label"}, placeholder: "Compose a new tweet..."%>
+    </div>
+    </div>
+    <%= f.button :submit, class: "button is-info" %>
+    <% end %>:
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/bc075ded20178d86/variables" for ::1 at 2021-01-06 03:07:33 +0530
+Started GET "/" for ::1 at 2021-01-06 03:10:13 +0530
+Processing by TweetsController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/tweets_controller.rb:7:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.3ms | Allocations: 98)
+  Rendered tweets/_feed.html.erb (Duration: 1.8ms | Allocations: 1831)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 2484)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 2579)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 1.7ms | Allocations: 6911)
+
+
+
+ActionView::MissingTemplate - Missing partial tweet/_form with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/imran/twitter-clone/app/views"
+  * "/var/lib/gems/2.7.0/gems/devise-4.7.3/app/views"
+  * "/var/lib/gems/2.7.0/gems/actiontext-6.1.0/app/views"
+  * "/var/lib/gems/2.7.0/gems/actionmailbox-6.1.0/app/views":
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/60ca5204a72cd62f/variables" for ::1 at 2021-01-06 03:10:13 +0530
+Started GET "/" for ::1 at 2021-01-06 03:10:15 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.2ms | Allocations: 6)
+  Rendered tweets/_feed.html.erb (Duration: 4.0ms | Allocations: 1212)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 6.8ms | Allocations: 1390)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 1485)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms | Allocations: 1883)
+
+
+
+ActionView::MissingTemplate - Missing partial tweet/_form with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/imran/twitter-clone/app/views"
+  * "/var/lib/gems/2.7.0/gems/devise-4.7.3/app/views"
+  * "/var/lib/gems/2.7.0/gems/actiontext-6.1.0/app/views"
+  * "/var/lib/gems/2.7.0/gems/actionmailbox-6.1.0/app/views":
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/cdecfe102bc49de0/variables" for ::1 at 2021-01-06 03:10:15 +0530
+Started GET "/" for ::1 at 2021-01-06 03:10:16 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered tweets/_feed.html.erb (Duration: 1.2ms | Allocations: 1212)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1390)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1485)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 1882)
+
+
+
+ActionView::MissingTemplate - Missing partial tweet/_form with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/imran/twitter-clone/app/views"
+  * "/var/lib/gems/2.7.0/gems/devise-4.7.3/app/views"
+  * "/var/lib/gems/2.7.0/gems/actiontext-6.1.0/app/views"
+  * "/var/lib/gems/2.7.0/gems/actionmailbox-6.1.0/app/views":
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/06ebca6d1d062b83/variables" for ::1 at 2021-01-06 03:10:16 +0530
+Started GET "/" for ::1 at 2021-01-06 03:11:27 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.6ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 1.7ms | Allocations: 1430)
+  Rendered tweets/_feed.html.erb (Duration: 4.0ms | Allocations: 1952)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 2609)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 2705)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms | Allocations: 3908)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= simple_form_for(@tweet) do |f| %>
+  <%= f.error_notification %>
+  <div class="field">
+    <div class="control">
+      <%= f.input :tweet, label: "Tweet about it", input_html: { class: "textarea"}, wrapper: false, label_html
+        : {class: "label"}, placeholder: "Compose a new tweet..."%>
+    </div>
+    </div>
+    <%= f.button :submit, class: "button is-info" %>
+    <% end %>:
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/76c02a6d5b256141/variables" for ::1 at 2021-01-06 03:11:27 +0530
+Started GET "/" for ::1 at 2021-01-06 03:11:28 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 2.1ms | Allocations: 6)
+  Rendered tweets/_form.html.erb (Duration: 8.4ms | Allocations: 1423)
+  Rendered tweets/_feed.html.erb (Duration: 10.3ms | Allocations: 1516)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 17.8ms | Allocations: 1694)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 1790)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms | Allocations: 2189)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= simple_form_for(@tweet) do |f| %>
+  <%= f.error_notification %>
+  <div class="field">
+    <div class="control">
+      <%= f.input :tweet, label: "Tweet about it", input_html: { class: "textarea"}, wrapper: false, label_html
+        : {class: "label"}, placeholder: "Compose a new tweet..."%>
+    </div>
+    </div>
+    <%= f.button :submit, class: "button is-info" %>
+    <% end %>:
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/13c1bd6839fce6f9/variables" for ::1 at 2021-01-06 03:11:28 +0530
+Started GET "/" for ::1 at 2021-01-06 03:15:40 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.6ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 2.1ms | Allocations: 1430)
+  Rendered tweets/_feed.html.erb (Duration: 5.5ms | Allocations: 1951)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 14.7ms | Allocations: 2603)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 2699)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms | Allocations: 3904)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= simple_form_for(@tweet) do |f| %>
+  <%= f.error_notification %>
+  <div class="field">
+    <div class="control">
+      <%= f.input :tweet, label: "Tweet about it", input_html: { class: "textarea"}, wrapper: false, label_html
+        : {class: "label"}, placeholder: "Compose a new tweet..."%>
+    </div>
+    </div>
+    <%= f.button :submit, class: "button is-info" %>
+    <% end %>:
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/591ef652fd82f8c2/variables" for ::1 at 2021-01-06 03:15:40 +0530
+Started GET "/" for ::1 at 2021-01-06 03:15:41 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered tweets/_form.html.erb (Duration: 4.3ms | Allocations: 1420)
+  Rendered tweets/_feed.html.erb (Duration: 5.0ms | Allocations: 1513)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 6.8ms | Allocations: 1691)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 1787)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms | Allocations: 2186)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= simple_form_for(@tweet) do |f| %>
+  <%= f.error_notification %>
+  <div class="field">
+    <div class="control">
+      <%= f.input :tweet, label: "Tweet about it", input_html: { class: "textarea"}, wrapper: false, label_html
+        : {class: "label"}, placeholder: "Compose a new tweet..."%>
+    </div>
+    </div>
+    <%= f.button :submit, class: "button is-info" %>
+    <% end %>:
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/1379f7c5c8e3b286/variables" for ::1 at 2021-01-06 03:15:41 +0530
+Started GET "/" for ::1 at 2021-01-06 03:16:38 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.3ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 3.1ms | Allocations: 1430)
+  Rendered tweets/_feed.html.erb (Duration: 5.2ms | Allocations: 1951)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 7.2ms | Allocations: 2604)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 2700)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 3903)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= simple_form_for(@tweet) do |f| %>
+  <%= f.error_notification %>
+  <div class="field">
+    <div class="control">
+      <%= f.input :tweet, label: "Tweet about it", input_html: { class: "textarea"}, wrapper: false, label_html
+        : {class: "label"}, placeholder: "Compose a new tweet..."%>
+    </div>
+    </div>
+    <%= f.button :submit, class: "button is-info" %>
+    <% end %>:
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/a4e8f0df6346fcb9/variables" for ::1 at 2021-01-06 03:16:38 +0530
+Started GET "/" for ::1 at 2021-01-06 03:17:02 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 1.4ms | Allocations: 98)
+  [1m[36mTweet Load (0.9ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 11.4ms | Allocations: 1191)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.8ms | Allocations: 134)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 26.9ms | Allocations: 2190)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 41.5ms | Allocations: 6610)
+Completed 200 OK in 59ms (Views: 51.1ms | ActiveRecord: 0.9ms | Allocations: 7841)
+
+
+Started GET "/" for ::1 at 2021-01-06 03:18:29 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.3ms | Allocations: 98)
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 4.0ms | Allocations: 1129)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.4ms | Allocations: 134)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 2122)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 6503)
+Completed 200 OK in 27ms (Views: 22.7ms | ActiveRecord: 0.3ms | Allocations: 7734)
+
+
+Started GET "/" for ::1 at 2021-01-06 03:18:52 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.4ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 2.0ms | Allocations: 1430)
+  Rendered tweets/_feed.html.erb (Duration: 4.1ms | Allocations: 1951)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 2601)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 2697)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 3894)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= simple_form_for(@tweet) do |f| %>
+  <%= f.error_notification %>
+  <div class="field">
+    <div class="control">
+      <%= f.input :tweet, label: "Tweet about it", input_html: { class: "textarea"}, wrapper: false, label_html
+        : {class: "label"}, placeholder: "Compose a new tweet..."%>
+    </div>
+    </div>
+    <%= f.button :submit, class: "button is-info" %>
+    <% end %>:
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/166c556ce8ecb3fc/variables" for ::1 at 2021-01-06 03:18:53 +0530
+Started GET "/" for ::1 at 2021-01-06 03:20:54 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 1.4ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 252.5ms | Allocations: 21390)
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 262.6ms | Allocations: 22723)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 1.5ms | Allocations: 135)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 273.6ms | Allocations: 23721)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 283.4ms | Allocations: 28036)
+Completed 200 OK in 304ms (Views: 294.7ms | ActiveRecord: 0.3ms | Allocations: 29267)
+
+
+Started GET "/" for ::1 at 2021-01-06 03:21:14 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 1.5ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 6.3ms | Allocations: 465)
+  [1m[36mTweet Load (0.5ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 21.5ms | Allocations: 1801)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.8ms | Allocations: 134)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 33.0ms | Allocations: 2794)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 50.5ms | Allocations: 7174)
+Completed 200 OK in 66ms (Views: 58.8ms | ActiveRecord: 0.5ms | Allocations: 8405)
+
+
+Started GET "/" for ::1 at 2021-01-06 03:21:16 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered tweets/_form.html.erb (Duration: 2.1ms | Allocations: 325)
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 9.5ms | Allocations: 1235)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 10.8ms | Allocations: 1499)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 21.5ms | Allocations: 5502)
+Completed 200 OK in 24ms (Views: 22.2ms | ActiveRecord: 0.3ms | Allocations: 5928)
+
+
+Started GET "/" for ::1 at 2021-01-06 03:22:42 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.9ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 2.0ms | Allocations: 1430)
+  Rendered tweets/_feed.html.erb (Duration: 5.2ms | Allocations: 1950)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 11.2ms | Allocations: 2605)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 2701)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.0ms | Allocations: 3903)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= simple_form_for(@tweet) do |f| %>
+  <%= f.error_notification %>
+  <div class="field">
+    <div class="control">
+    <%= f.input :tweet, label: "Tweet about it", input_html: { class: "textarea"}, wrapper: false, label_html
+    : {class: "label"}, placeholder: "Compose a new tweet..." %>
+    </div>
+    </div>
+    <%= f.button :submit, class: "button is-info" %>
+    <% end %>:
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/fd730f63930268b7/variables" for ::1 at 2021-01-06 03:22:42 +0530
+Started GET "/" for ::1 at 2021-01-06 03:24:09 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.5ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 1.8ms | Allocations: 1424)
+  Rendered tweets/_feed.html.erb (Duration: 4.2ms | Allocations: 1944)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 7.2ms | Allocations: 2597)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 2693)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 3896)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= simple_form_for(@tweet) do |f| %>
+  <%= f.error_notification %>
+  <div class="field">
+    <div class="control">
+    <%= f.input :tweet, label: "Tweet about it", input_html: { class: "textarea"}, wrapper: false, 
+     %>
+    </div>
+    </div>
+    <%= f.button :submit, class: "button is-info" %>
+    <% end %>:
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/9c1e5f1639459280/variables" for ::1 at 2021-01-06 03:24:09 +0530
+Started GET "/" for ::1 at 2021-01-06 03:24:11 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered tweets/_form.html.erb (Duration: 5.2ms | Allocations: 1415)
+  Rendered tweets/_feed.html.erb (Duration: 6.5ms | Allocations: 1508)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 8.8ms | Allocations: 1686)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 1782)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 2181)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= simple_form_for(@tweet) do |f| %>
+  <%= f.error_notification %>
+  <div class="field">
+    <div class="control">
+    <%= f.input :tweet, label: "Tweet about it", input_html: { class: "textarea"}, wrapper: false, 
+     %>
+    </div>
+    </div>
+    <%= f.button :submit, class: "button is-info" %>
+    <% end %>:
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/7bcf69525952ada3/variables" for ::1 at 2021-01-06 03:24:11 +0530
+Started GET "/" for ::1 at 2021-01-06 03:27:19 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.5ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 1.3ms | Allocations: 1430)
+  Rendered tweets/_feed.html.erb (Duration: 2.9ms | Allocations: 1950)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 2607)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 2703)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 3906)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= simple_form_for(@tweet) do |f| %>
+  <%= f.error_notification %>
+  <div class="field">
+    <div class="control">
+    <%= f.input :tweets, label: "Tweet about it", input_html: { class: "textarea"}, wrapper: false, label_html
+      : {class: "label"}, placeholder: "Compose a new tweet..." %>
+    </div>
+    </div>
+    <%= f.button :submit, class: "button is-info" %>
+    <% end %>:
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/58b2c0809dce5c3a/variables" for ::1 at 2021-01-06 03:27:19 +0530
+Started GET "/" for ::1 at 2021-01-06 03:27:36 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.8ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 2.3ms | Allocations: 469)
+  [1m[36mTweet Load (0.4ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 12.5ms | Allocations: 1806)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 1.1ms | Allocations: 134)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 20.0ms | Allocations: 2801)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.6ms | Allocations: 7218)
+Completed 200 OK in 44ms (Views: 41.3ms | ActiveRecord: 0.4ms | Allocations: 8447)
+
+
+Started GET "/" for ::1 at 2021-01-06 03:31:27 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.7ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 2.5ms | Allocations: 1430)
+  Rendered tweets/_feed.html.erb (Duration: 5.6ms | Allocations: 1949)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 12.0ms | Allocations: 2600)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 2696)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms | Allocations: 3893)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= simple_form_for(@tweet) do |f| %>
+  <%= f.error_notification %>
+  <div class="field">
+    <div class="control">
+    <%= f.input :tweet, label: "Tweet about it", input_html: { class: "textarea"}, wrapper: false, label_html
+      : {class: "label"}, placeholder: "Compose a new tweet..." %>
+    </div>
+    </div>
+    <%= f.button :submit, class: "button is-info" %>
+    <% end %>:
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/cf7d1dcaebea9808/variables" for ::1 at 2021-01-06 03:31:27 +0530
+Started GET "/" for ::1 at 2021-01-06 04:39:25 +0530
+Processing by TweetsController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/tweets_controller.rb:7:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.8ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 2.0ms | Allocations: 1430)
+  Rendered tweets/_feed.html.erb (Duration: 4.3ms | Allocations: 1950)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 24.0ms | Allocations: 2608)
+  Rendered layout layouts/application.html.erb (Duration: 24.8ms | Allocations: 2704)
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 0.6ms | Allocations: 4513)
+
+
+
+ActionView::SyntaxErrorInTemplate - Encountered a syntax error while rendering template: check <%= simple_form_for(@tweet) do |f| %>
+  <%= f.error_notification %>
+  <div class="field">
+    <div class="control">
+    <%= f.input :tweet, label: "Tweet about it", input_html: { class: "textarea"}, wrapper: false, label_html
+      : {class: "label"}, placeholder: "Compose a new tweet..." %>
+    </div>
+    </div>
+    <%= f.button :submit, class: "button is-info" %>
+    <% end %>:
+  app/views/tweets/_feed.html.erb:9
+  app/views/tweets/index.html.erb:5
+
+Started POST "/__better_errors/cda8a8f884fb9cb2/variables" for ::1 at 2021-01-06 04:39:26 +0530
+Started GET "/" for ::1 at 2021-01-06 04:40:43 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.4ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 2.0ms | Allocations: 469)
+  [1m[36mTweet Load (0.4ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 8.3ms | Allocations: 1806)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.6ms | Allocations: 134)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 12.6ms | Allocations: 2801)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 107.6ms | Allocations: 7218)
+Completed 200 OK in 117ms (Views: 112.0ms | ActiveRecord: 0.4ms | Allocations: 8448)
+
+
+Started GET "/" for ::1 at 2021-01-06 04:42:58 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.7ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 151.0ms | Allocations: 12139)
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 160.5ms | Allocations: 13473)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 1.0ms | Allocations: 134)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 171.2ms | Allocations: 14470)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 189.5ms | Allocations: 18785)
+Completed 200 OK in 204ms (Views: 193.6ms | ActiveRecord: 0.3ms | Allocations: 20016)
+
+
+Started GET "/" for ::1 at 2021-01-06 04:43:01 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered tweets/_form.html.erb (Duration: 12.8ms | Allocations: 3220)
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 17.3ms | Allocations: 4126)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 18.5ms | Allocations: 4390)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.2ms | Allocations: 8291)
+Completed 200 OK in 34ms (Views: 32.5ms | ActiveRecord: 0.3ms | Allocations: 8717)
+
+
+Started GET "/" for ::1 at 2021-01-06 04:43:33 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.9ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 11.6ms | Allocations: 3241)
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 18.9ms | Allocations: 4574)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 1.3ms | Allocations: 135)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 29.9ms | Allocations: 5570)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 48.7ms | Allocations: 9852)
+Completed 200 OK in 56ms (Views: 53.2ms | ActiveRecord: 0.3ms | Allocations: 11083)
+
+
+Started GET "/" for ::1 at 2021-01-06 04:43:53 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.6ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 17.7ms | Allocations: 3245)
+  [1m[36mTweet Load (0.4ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 28.4ms | Allocations: 4578)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 5.0ms | Allocations: 134)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 40.4ms | Allocations: 5573)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 65.7ms | Allocations: 9886)
+Completed 200 OK in 70ms (Views: 68.0ms | ActiveRecord: 0.4ms | Allocations: 11117)
+
+
+Started GET "/" for ::1 at 2021-01-06 04:44:26 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.4ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 9.3ms | Allocations: 3137)
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 22.9ms | Allocations: 4470)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.5ms | Allocations: 134)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 31.4ms | Allocations: 5469)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 46.1ms | Allocations: 9784)
+Completed 200 OK in 54ms (Views: 49.8ms | ActiveRecord: 0.3ms | Allocations: 11015)
+
+
+Started GET "/" for ::1 at 2021-01-06 04:44:27 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.2ms | Allocations: 6)
+  Rendered tweets/_form.html.erb (Duration: 20.0ms | Allocations: 2975)
+  [1m[36mTweet Load (0.4ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 29.8ms | Allocations: 3881)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 34.5ms | Allocations: 4145)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 55.6ms | Allocations: 8046)
+Completed 200 OK in 58ms (Views: 56.4ms | ActiveRecord: 0.4ms | Allocations: 8472)
+
+
+Started GET "/" for ::1 at 2021-01-06 04:44:29 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered tweets/_form.html.erb (Duration: 18.8ms | Allocations: 2972)
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 26.8ms | Allocations: 3875)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 28.5ms | Allocations: 4139)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 57.4ms | Allocations: 8040)
+Completed 200 OK in 60ms (Views: 58.0ms | ActiveRecord: 0.3ms | Allocations: 8465)
+
+
+Started GET "/" for ::1 at 2021-01-06 04:44:54 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.8ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 13.0ms | Allocations: 3073)
+  [1m[36mTweet Load (0.9ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 25.3ms | Allocations: 4408)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.4ms | Allocations: 134)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 30.2ms | Allocations: 5402)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 64.4ms | Allocations: 9683)
+Completed 200 OK in 71ms (Views: 66.9ms | ActiveRecord: 0.9ms | Allocations: 10914)
+
+
+Started GET "/" for ::1 at 2021-01-06 04:50:04 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.7ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 17.6ms | Allocations: 3076)
+  [1m[36mTweet Load (0.4ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 28.1ms | Allocations: 4409)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.4ms | Allocations: 134)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 36.6ms | Allocations: 5418)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 56.3ms | Allocations: 9733)
+Completed 200 OK in 64ms (Views: 61.3ms | ActiveRecord: 0.4ms | Allocations: 10964)
+
+
+Started GET "/" for ::1 at 2021-01-06 04:50:05 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered tweets/_form.html.erb (Duration: 12.6ms | Allocations: 2912)
+  [1m[36mTweet Load (2.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 22.9ms | Allocations: 3818)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.2ms | Allocations: 5)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 25.3ms | Allocations: 4083)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 44.7ms | Allocations: 7984)
+Completed 200 OK in 48ms (Views: 43.7ms | ActiveRecord: 2.1ms | Allocations: 8410)
+
+
+Started GET "/" for ::1 at 2021-01-06 04:50:34 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 1.3ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 14.1ms | Allocations: 3072)
+  [1m[36mTweet Load (1.0ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 25.7ms | Allocations: 4404)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 1.6ms | Allocations: 134)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 35.6ms | Allocations: 5403)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 53.3ms | Allocations: 9682)
+Completed 200 OK in 62ms (Views: 57.7ms | ActiveRecord: 1.0ms | Allocations: 10906)
+
+
+Started GET "/" for ::1 at 2021-01-06 04:51:03 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.7ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 21.0ms | Allocations: 3074)
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 34.1ms | Allocations: 4407)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.6ms | Allocations: 137)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 40.8ms | Allocations: 5412)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 57.6ms | Allocations: 9727)
+Completed 200 OK in 68ms (Views: 64.3ms | ActiveRecord: 0.3ms | Allocations: 10958)
+
+
+Started GET "/" for ::1 at 2021-01-06 04:52:05 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.6ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 11.4ms | Allocations: 3073)
+  [1m[36mTweet Load (0.5ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 18.6ms | Allocations: 4406)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 1.3ms | Allocations: 134)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 25.4ms | Allocations: 5411)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 45.3ms | Allocations: 9726)
+Completed 200 OK in 56ms (Views: 51.6ms | ActiveRecord: 0.5ms | Allocations: 10957)
+
+
+Started GET "/" for ::1 at 2021-01-06 05:03:51 +0530
+Processing by TweetsController#index as HTML
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/tweets_controller.rb:7:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 177.1ms | Allocations: 101)
+  Rendered tweets/_form.html.erb (Duration: 940.3ms | Allocations: 3072)
+  [1m[36mTweet Load (38.5ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 1176.0ms | Allocations: 4406)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 116.8ms | Allocations: 134)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 1483.4ms | Allocations: 5411)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 2807.6ms | Allocations: 9692)
+Completed 200 OK in 3915ms (Views: 3243.2ms | ActiveRecord: 42.9ms | Allocations: 11594)
+
+
+Started GET "/" for ::1 at 2021-01-06 05:05:13 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.3ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 8.4ms | Allocations: 3072)
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 12.9ms | Allocations: 4404)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.5ms | Allocations: 134)
+  Rendered tweets/_trends.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered tweets/_form.html.erb (Duration: 20.7ms | Allocations: 2786)
+  Rendered tweets/_feed.html.erb (Duration: 21.6ms | Allocations: 2993)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 40.7ms | Allocations: 8722)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 50.9ms | Allocations: 13040)
+Completed 200 OK in 57ms (Views: 53.9ms | ActiveRecord: 0.3ms | Allocations: 14265)
+
+
+Started GET "/" for ::1 at 2021-01-06 05:05:35 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 1.1ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 26.1ms | Allocations: 3073)
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 39.5ms | Allocations: 4407)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.5ms | Allocations: 135)
+  Rendered tweets/_trends.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered tweets/_form.html.erb (Duration: 7.4ms | Allocations: 2785)
+  Rendered tweets/_feed.html.erb (Duration: 8.7ms | Allocations: 2992)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 60.4ms | Allocations: 8726)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 75.1ms | Allocations: 13044)
+Completed 200 OK in 90ms (Views: 83.3ms | ActiveRecord: 0.3ms | Allocations: 14275)
+
+
+Started GET "/" for ::1 at 2021-01-06 05:05:53 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 2.5ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 15.2ms | Allocations: 3072)
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 25.5ms | Allocations: 4408)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.5ms | Allocations: 134)
+  Rendered tweets/_trends.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered tweets/_form.html.erb (Duration: 6.1ms | Allocations: 2785)
+  Rendered tweets/_feed.html.erb (Duration: 6.9ms | Allocations: 2992)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 44.7ms | Allocations: 8724)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 52.3ms | Allocations: 13026)
+Completed 200 OK in 66ms (Views: 59.5ms | ActiveRecord: 0.3ms | Allocations: 14257)
+
+
+Started GET "/" for ::1 at 2021-01-06 05:06:23 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 1.8ms | Allocations: 98)
+  Rendered tweets/_form.html.erb (Duration: 15.0ms | Allocations: 3072)
+  [1m[36mTweet Load (0.4ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 23.6ms | Allocations: 4404)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.4ms | Allocations: 134)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 35.9ms | Allocations: 5395)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 54.6ms | Allocations: 9682)
+Completed 200 OK in 74ms (Views: 66.9ms | ActiveRecord: 0.4ms | Allocations: 10907)
+
+
+Started GET "/" for ::1 at 2021-01-06 05:07:06 +0530
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 1.4ms | Allocations: 100)
+  Rendered tweets/_form.html.erb (Duration: 266.5ms | Allocations: 10937)
+  [1m[36mTweet Load (0.5ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 282.1ms | Allocations: 12320)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 1.2ms | Allocations: 136)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 310.4ms | Allocations: 13444)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 742.7ms | Allocations: 20208)
+Completed 200 OK in 864ms (Views: 753.4ms | ActiveRecord: 5.6ms | Allocations: 26357)
+
+
