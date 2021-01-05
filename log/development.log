@@ -21,3 +21,148 @@ Migrating to CreateTweets (20210105171315)
   [1m[36mTRANSACTION (85.1ms)[0m  [1m[36mcommit transaction[0m
   [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
   [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2021-01-05 22:53:22 +0530
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 41.6ms | Allocations: 333)
+Completed 200 OK in 114ms (Views: 46.4ms | ActiveRecord: 0.0ms | Allocations: 2466)
+
+
+Started GET "/" for ::1 at 2021-01-05 22:53:23 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.7.0/gems/railties-6.1.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 18.6ms | Allocations: 215)
+Completed 200 OK in 25ms (Views: 20.6ms | ActiveRecord: 0.0ms | Allocations: 1109)
+
+
+Started GET "/" for ::1 at 2021-01-05 22:55:43 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/tweets/index.html.erb:14
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (Duration: 35.4ms | Allocations: 1691)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/imran/twitter-clone/public/packs
+[Webpacker] Hash: 415a948d492e21802f43
+Version: webpack 4.44.2
+Time: 6281ms
+Built at: 05/01/2021 10:55:59 pm
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-d5a3c3b4dce84b5eb605.js    125 KiB  application  [emitted] [immutable]  application
+js/application-d5a3c3b4dce84b5eb605.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-d5a3c3b4dce84b5eb605.js js/application-d5a3c3b4dce84b5eb605.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 16235.7ms | Allocations: 20657)
+Completed 200 OK in 16289ms (Views: 16257.3ms | ActiveRecord: 0.8ms | Allocations: 22047)
+
+
+Started GET "/tweets/new" for ::1 at 2021-01-05 22:56:34 +0530
+Processing by TweetsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/new.html.erb within layouts/application
+  Rendered tweets/_form.html.erb (Duration: 129.6ms | Allocations: 11651)
+  Rendered tweets/new.html.erb within layouts/application (Duration: 131.5ms | Allocations: 11999)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 141.5ms | Allocations: 14876)
+Completed 200 OK in 171ms (Views: 142.5ms | ActiveRecord: 4.3ms | Allocations: 18076)
+
+
+Started POST "/tweets" for ::1 at 2021-01-05 22:57:16 +0530
+Processing by TweetsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "tweet"=>{"tweet"=>"first tweet"}, "commit"=>"Create Tweet"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tweets_controller.rb:30:in `block in create'
+  [1m[36mTweet Create (1.1ms)[0m  [1m[32mINSERT INTO "tweets" ("tweet", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["tweet", "first tweet"], ["created_at", "2021-01-05 17:27:16.274854"], ["updated_at", "2021-01-05 17:27:16.274854"]]
+  ↳ app/controllers/tweets_controller.rb:30:in `block in create'
+  [1m[36mTRANSACTION (157.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tweets_controller.rb:30:in `block in create'
+Redirected to http://localhost:3000/tweets/1
+Completed 302 Found in 198ms (ActiveRecord: 158.7ms | Allocations: 4930)
+
+
+Started GET "/tweets/1" for ::1 at 2021-01-05 22:57:16 +0530
+Processing by TweetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:67:in `set_tweet'
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/show.html.erb within layouts/application
+  Rendered tweets/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 245)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 3163)
+Completed 200 OK in 37ms (Views: 6.9ms | ActiveRecord: 0.3ms | Allocations: 9487)
+
+
+Started GET "/tweets/1/edit" for ::1 at 2021-01-05 22:57:19 +0530
+Processing by TweetsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTweet Load (0.5ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:67:in `set_tweet'
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/edit.html.erb within layouts/application
+  Rendered tweets/_form.html.erb (Duration: 6.4ms | Allocations: 542)
+  Rendered tweets/edit.html.erb within layouts/application (Duration: 10.4ms | Allocations: 798)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 40.0ms | Allocations: 4362)
+Completed 200 OK in 58ms (Views: 43.4ms | ActiveRecord: 0.5ms | Allocations: 5440)
+
+
+Started PATCH "/tweets/1" for ::1 at 2021-01-05 22:57:21 +0530
+Processing by TweetsController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "tweet"=>{"tweet"=>"first tweet"}, "commit"=>"Update Tweet", "id"=>"1"}
+  [1m[36mTweet Load (0.5ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:67:in `set_tweet'
+Redirected to http://localhost:3000/tweets/1
+Completed 302 Found in 17ms (ActiveRecord: 0.5ms | Allocations: 1102)
+
+
+Started GET "/tweets/1" for ::1 at 2021-01-05 22:57:21 +0530
+Processing by TweetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:67:in `set_tweet'
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/show.html.erb within layouts/application
+  Rendered tweets/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 101)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 3076)
+Completed 200 OK in 10ms (Views: 6.8ms | ActiveRecord: 0.2ms | Allocations: 4016)
+
+
+Started GET "/tweets" for ::1 at 2021-01-05 22:57:24 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.4ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (Duration: 11.2ms | Allocations: 808)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 35.9ms | Allocations: 4355)
+Completed 200 OK in 39ms (Views: 37.2ms | ActiveRecord: 0.4ms | Allocations: 4753)
+
+
+Started GET "/tweets" for ::1 at 2021-01-05 23:21:43 +0530
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (17.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:14
+  Rendered tweets/index.html.erb within layouts/application (Duration: 80.5ms | Allocations: 3853)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 1408.9ms | Allocations: 121950)
+Completed 200 OK in 1544ms (Views: 1429.5ms | ActiveRecord: 19.4ms | Allocations: 124827)
+
+
