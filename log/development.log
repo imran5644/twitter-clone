@@ -1861,3 +1861,183 @@ Processing by TweetsController#index as HTML
 Completed 200 OK in 864ms (Views: 753.4ms | ActiveRecord: 5.6ms | Allocations: 26357)
 
 
+Started GET "/" for ::1 at 2021-01-06 20:12:56 +0530
+Started GET "/" for ::1 at 2021-01-06 20:12:56 +0530
+  [1m[35m (3.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TweetsController#index as HTML
+Processing by TweetsController#index as HTML
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/tweets_controller.rb:7:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 8.6ms | Allocations: 181)
+  Rendered tweets/_trends.html.erb (Duration: 6.2ms | Allocations: 117)
+  Rendered tweets/_form.html.erb (Duration: 210.8ms | Allocations: 11407)
+  Rendered tweets/_form.html.erb (Duration: 323.4ms | Allocations: 15504)
+  [1m[36mTweet Load (8.6ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  [1m[36mTweet Load (0.9ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 372.6ms | Allocations: 17432)
+  Rendered tweets/_feed.html.erb (Duration: 378.7ms | Allocations: 17843)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 13.8ms | Allocations: 214)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 13.5ms | Allocations: 152)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 414.9ms | Allocations: 18934)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 428.3ms | Allocations: 19364)
+[Webpacker] Everything's up-to-date. Nothing to do
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 761.4ms | Allocations: 32004)
+Completed 200 OK in 893ms (Views: 771.1ms | ActiveRecord: 9.6ms | Allocations: 38749)
+
+
+  Rendered layout layouts/application.html.erb (Duration: 753.7ms | Allocations: 32159)
+Completed 200 OK in 868ms (Views: 784.1ms | ActiveRecord: 1.6ms | Allocations: 38533)
+
+
+Started POST "/tweets" for ::1 at 2021-01-06 20:13:06 +0530
+Processing by TweetsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "tweet"=>{"tweet"=>"new tweet"}, "commit"=>"Create Tweet"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tweets_controller.rb:31:in `block in create'
+  [1m[36mTweet Create (17.1ms)[0m  [1m[32mINSERT INTO "tweets" ("tweet", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["tweet", "new tweet"], ["created_at", "2021-01-06 14:43:06.619844"], ["updated_at", "2021-01-06 14:43:06.619844"]]
+  ↳ app/controllers/tweets_controller.rb:31:in `block in create'
+  [1m[36mTRANSACTION (114.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tweets_controller.rb:31:in `block in create'
+Redirected to http://localhost:3000/tweets/2
+Completed 302 Found in 160ms (ActiveRecord: 132.0ms | Allocations: 4967)
+
+
+Started GET "/tweets/2" for ::1 at 2021-01-06 20:13:06 +0530
+Processing by TweetsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:68:in `set_tweet'
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/show.html.erb within layouts/application
+  Rendered tweets/show.html.erb within layouts/application (Duration: 19.7ms | Allocations: 218)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 33.0ms | Allocations: 4223)
+Completed 200 OK in 52ms (Views: 33.6ms | ActiveRecord: 0.3ms | Allocations: 5699)
+
+
+Started GET "/tweets" for ::1 at 2021-01-06 20:13:09 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered tweets/_form.html.erb (Duration: 14.3ms | Allocations: 2915)
+  [1m[36mTweet Load (0.4ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 26.6ms | Allocations: 4427)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 30.1ms | Allocations: 4784)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 45.4ms | Allocations: 8687)
+Completed 200 OK in 49ms (Views: 46.0ms | ActiveRecord: 0.4ms | Allocations: 9127)
+
+
+Started GET "/tweets" for ::1 at 2021-01-06 20:15:47 +0530
+Processing by TweetsController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/tweets_controller.rb:7:in `index'
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered tweets/_form.html.erb (Duration: 12.8ms | Allocations: 2948)
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 17.7ms | Allocations: 3986)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 19.7ms | Allocations: 4409)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 27.2ms | Allocations: 8314)
+Completed 200 OK in 38ms (Views: 28.1ms | ActiveRecord: 1.5ms | Allocations: 11816)
+
+
+Started GET "/tweets" for ::1 at 2021-01-06 20:15:49 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.1ms | Allocations: 6)
+  Rendered tweets/_form.html.erb (Duration: 13.0ms | Allocations: 2909)
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 26.5ms | Allocations: 3935)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 27.9ms | Allocations: 4199)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 38.5ms | Allocations: 8138)
+Completed 200 OK in 41ms (Views: 39.4ms | ActiveRecord: 0.3ms | Allocations: 8564)
+
+
+Started POST "/tweets" for ::1 at 2021-01-06 20:15:55 +0530
+Processing by TweetsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "tweet"=>{"tweet"=>"test tweet"}, "commit"=>"Create Tweet"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tweets_controller.rb:31:in `block in create'
+  [1m[36mTweet Create (0.4ms)[0m  [1m[32mINSERT INTO "tweets" ("tweet", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["tweet", "test tweet"], ["created_at", "2021-01-06 14:45:55.427823"], ["updated_at", "2021-01-06 14:45:55.427823"]]
+  ↳ app/controllers/tweets_controller.rb:31:in `block in create'
+  [1m[36mTRANSACTION (77.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tweets_controller.rb:31:in `block in create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 95ms (ActiveRecord: 78.0ms | Allocations: 4365)
+
+
+Started GET "/" for ::1 at 2021-01-06 20:15:55 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.0ms | Allocations: 6)
+  Rendered tweets/_form.html.erb (Duration: 6.0ms | Allocations: 2912)
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 13.5ms | Allocations: 4396)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 14.6ms | Allocations: 4660)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 24.1ms | Allocations: 8604)
+Completed 200 OK in 26ms (Views: 24.4ms | ActiveRecord: 0.3ms | Allocations: 9038)
+
+
+Started GET "/" for ::1 at 2021-01-06 20:18:54 +0530
+Processing by TweetsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/_trends.html.erb (Duration: 0.2ms | Allocations: 6)
+  Rendered tweets/_form.html.erb (Duration: 8.4ms | Allocations: 2909)
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY created_at Desc[0m
+  ↳ app/views/tweets/_feed.html.erb:14
+  Rendered tweets/_feed.html.erb (Duration: 12.7ms | Allocations: 4056)
+  Rendered tweets/_who-to-follow.html.erb (Duration: 0.1ms | Allocations: 5)
+  Rendered tweets/index.html.erb within layouts/application (Duration: 15.4ms | Allocations: 4320)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 941.2ms | Allocations: 115144)
+Completed 200 OK in 944ms (Views: 942.0ms | ActiveRecord: 0.3ms | Allocations: 115569)
+
+
+Started GET "/users/sign_up" for ::1 at 2021-01-06 20:20:06 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_up"):
+  
+DEPRECATION WARNING: [] is deprecated and will be removed from Rails 6.2 (Use configs_for) (called from migration_template at (erb):6)
+DEPRECATION WARNING: [] is deprecated and will be removed from Rails 6.2 (Use configs_for) (called from migration_template at (erb):6)
+DEPRECATION WARNING: [] is deprecated and will be removed from Rails 6.2 (Use configs_for) (called from <main> at /home/imran/twitter-clone/bin/rails:5)
+DEPRECATION WARNING: [] is deprecated and will be removed from Rails 6.2 (Use configs_for) (called from <main> at /home/imran/twitter-clone/bin/rails:5)
+DEPRECATION WARNING: [] is deprecated and will be removed from Rails 6.2 (Use configs_for) (called from <main> at /home/imran/twitter-clone/bin/rails:5)
+DEPRECATION WARNING: [] is deprecated and will be removed from Rails 6.2 (Use configs_for) (called from <main> at /home/imran/twitter-clone/bin/rails:5)
+DEPRECATION WARNING: [] is deprecated and will be removed from Rails 6.2 (Use configs_for) (called from <main> at /home/imran/twitter-clone/bin/rails:5)
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to DeviseCreateUsers (20210106145150)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (15.8ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210106145150"]]
+  [1m[36mTRANSACTION (112.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.9ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
